@@ -79,7 +79,7 @@ jobs:
           echo "SEND_SLACK_MSG=$SEND_SLACK_MSG" >> $GITHUB_ENV
       -
         name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
       -
