@@ -24,7 +24,7 @@ jobs:
           git fetch origin main:main
           git reset --hard main
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e
+        uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1
         with:
           delete-branch: false
           branch: published-update
